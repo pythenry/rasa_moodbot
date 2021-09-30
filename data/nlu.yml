@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - I want to open a [credit account](account_type)
 - intent: goodbye
   examples: |
     - cu
@@ -84,3 +85,8 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- synonym: credit
+  examples: |
+    - credit card account
+    - credit account
