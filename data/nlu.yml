@@ -84,12 +84,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- regex: account_number
+  examples: |
+    - \d{10,12}
 - intent: inform
   examples: |
     - my account number is [1234567891](account_number)
     - This is my account number [1234567891](account_number)
-    - my account number is [12345678901](account_number)[12345678901](account_number)
-    - here is my account no [09876543211](account_number)[09876543211](account_number)
-- regex: account_number
-  examples: |
-    - \d{10,12}
