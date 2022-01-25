@@ -12,3 +12,7 @@ rules:
   steps:
   - intent: greet
   - action: utter_greet
+- rule: Tell a joke
+  steps:
+  - intent: joke
+  - action: utter_a_joke

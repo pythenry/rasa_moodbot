@@ -90,3 +90,8 @@ nlu:
 - intent: mood_average
   examples: |
     - I'm ok thanks
+- intent: joke
+  examples: |
+    - do you know any jokes ?
+    - tell me a joke
+    - Do you know any jokes?
